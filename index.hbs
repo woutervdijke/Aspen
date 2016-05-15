@@ -1,0 +1,30 @@
+{{!< default}}
+{{> header}}
+
+<main class="post-overview">
+    <div class="grid-sizer"></div>
+{{#foreach posts}}
+    {{^if page}}
+<div class="single-post">
+    {{#if image}}
+        <a href="{{{url}}}"><img src={{image}} class="post-img"></a>
+    {{/if}}
+    <a href="{{{url}}}"><h3 class="post-title">{{title}}</h3></a>
+    <span class="post-meta">{{date format='dddd DD MMM YYYY'}}
+    {{#if tags}}
+         in <a class="post-tags">{{tags separator=" / "}}</a>
+    {{/if}}
+    </span>
+</div>
+{{/if}}
+{{/foreach}}
+</main>
+
+
+{{#if pagination}}
+    <div id="pagination">
+    <a>{{{pagination}}}</a>
+    </div>
+{{/if}}
+
+{{> footer}}

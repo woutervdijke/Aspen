@@ -1,0 +1,290 @@
+/* Fonts and Stuff */
+h1, h2 {
+    font-family: 'Raleway', sans-serif; !important;
+    color: #2a2a2a; !important
+    word-wrap: break-word;
+}
+h1 {
+    font-size: 2em;
+    margin: 5px;
+}
+h2{
+    font-size: 1.5em;
+    margin: 5px;
+}
+h3, h4 {
+    font-family: 'Raleway', sans-serif; !important
+    color: #555; !important
+}
+h4 {
+    font-size: 1.2em;
+    margin-bottom: -0.8em;
+}
+
+a ,p {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+li, ul {
+    font-family: 'Raleway', sans-serif;
+}
+#post-content p a {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+}
+
+#post-content p a:hover {
+   text-decoration: underline;
+}
+
+
+.blog-subtitle {
+    font-style: italic;
+}
+
+#container {
+    border-right: solid 1px #eaeaea;
+    border-left: solid 1px #eaeaea;
+    max-width:1500px;
+    margin: auto;
+    margin-top: -8px;
+
+}
+/* Header Styling */
+#header {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    border-bottom: solid 1px #eaeaea;
+}
+#header a {
+    color: #555555;
+}
+#bloglogo {
+    width: 80px;
+    height: 80px;
+    border: solid 3px #0093CA;
+    border-radius: 100%;
+}
+#social-links{
+    margin: auto;
+    margin-top: 15px;
+    width: 80%;
+}
+#social-links a{
+    font-size: 0.8em;
+    margin: 3%;
+}
+#pages{
+    margin: auto;
+    margin-top: 15px;
+    width: 80%;
+    padding: 15px;
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+}
+#pages a{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 3%;
+}
+
+/* Post Overview Styling */
+
+.post-overview {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+@media only screen and (min-width: 400px) {
+    .grid-sizer{width:50%;}
+    .single-post{width: calc(50% - 31px);}
+}
+@media only screen and (min-width: 700px) {
+    .grid-sizer{ width: 33.33333333%;}
+    .single-post{width: calc(33.33333333% - 31px);}
+}
+@media only screen and (min-width: 1000px) {
+    .grid-sizer{width:25%;}
+    .single-post{width: calc(25% - 31px);}
+}
+@media only screen and (min-width: 1300px) {
+.grid-sizer{width:20%;}
+.single-post{width: calc(20% - 31px);}
+}
+
+.single-post{
+
+    display: inline-block;
+    margin: 10px 5px;
+    padding-bottom: 20px;
+    border-bottom: solid #eaeaea 1px;
+}
+.post-img {
+    width: 100%;
+    max-height: 100%;
+
+}
+.post-title{
+    margin-top: 5px;
+    color: #555;
+}
+.post-meta{
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    font-size:0.8em;
+    color: #b0b0b0;
+}
+.post-date{
+    color: #b0b0b0;
+}
+.post-meta a{
+    color: #b0b0b0;
+}
+.post-meta a:hover{
+    text-decoration: underline;
+    color: #555;
+}
+
+/* Pagination Styling */
+#pagination{
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 50%;
+    min-width: 275px;
+    text-align: center;
+    color: #555;
+    padding: 15px;
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+}
+
+#pagination a{
+    color: #555;
+}
+
+/* Footer Styling */
+#footer {
+    height: 40px;
+    padding: 5px;
+    text-align: right;
+    background-color: #dedede;
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+}
+
+#footer p{
+    font-style: italic;
+    font-size: 0.8em;
+    color: #b0b0b0;
+}
+
+#footer a{
+    color: #808080;
+}
+
+/* Styling of individual posts */
+
+#post-head, #post-footer {
+    width: 80%;
+    margin: auto;
+}
+.post-headline {
+    display: block;
+    font-size: 4em;
+    text-align: center;
+}
+#post-head-img {
+    width: 100%;
+    height:auto;
+    margin:auto;
+    margin-top: 10px;
+}
+#post-info {
+     width: 80%;
+     margin: auto;
+     margin-top: 10px;
+     text-align: right;
+     font-family: 'Raleway', serif;
+     color: #555555;
+ }
+
+#post-info a{
+    font-family: 'Raleway', serif;
+    color: #555555;
+}
+
+#postdate {
+    font-style: italic;
+}
+
+#post-content {
+    width: 80%;
+    margin: auto;
+    border-bottom: solid 1px #eaeaea;
+    }
+#post-content p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height:1.5em;
+}
+
+#sharebuttons {
+    margin: auto;
+    text-align: center;
+}
+
+.socialshare {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    text-align: center;
+}
+#tweetbutton {
+    background-color: #55acee;
+}
+
+#tweetbutton:hover {
+    background-color: white;
+    border: 1px solid #55acee;
+    color: #55acee;
+}
+
+#fbbutton {
+    background-color: #3f5996;
+}
+
+#fbbutton:hover {
+    background-color: white;
+    border: 1px solid #3f5996;
+    color: #3f5996;
+}
+#pinterestbutton {
+    background-color: #bd081c;
+}
+
+#pinterestbutton:hover {
+    background-color: white;
+    border: 1px solid #bd081c;
+    color: #bd081c;
+}
+
+#footer-tags {
+    color: #555;
+    text-align: center;
+}
+#footer-tags a {
+    color: #555;
+}
+.tag:hover {
+    text-decoration: underline;
+}

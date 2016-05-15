@@ -1,0 +1,34 @@
+{{!< default}}
+{{> header}}
+
+{{#post}}
+<div id="post-head">
+    <img id="post-head-img" src="{{{image}}}">
+    <h1 class="post-headline">{{{title}}}</h1>
+    <div id="post-info"><span id="postdate">{{date format="DD-MM-YYYY"}}</span> <span id="byline">by <b>{{author}}</b></span></div>
+</div>
+
+<div id="post-content">
+    {{{content}}}
+</div>
+
+<div id="post-footer">
+    <div id="sharebuttons">
+        <a id="tweetbutton" class="socialshare" target="_blank" href="https://twitter.com/home?status={{url absolute="true"}}" onclick="javascript:void window.open('https://twitter.com/home?status={{url absolute="true"}}','1463318955356','width=700,height=500,toolbar=0,menubar=0,location=0,status=0,scrollbars=0,resizable=1,left=0,top=0');return false;"><i class="fa fa-twitter"></i>   Share on Twitter</a>
+        <a id="fbbutton" class="socialshare" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="javascript:void window.open('http://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}','1463318955356','width=700,height=500,toolbar=0,menubar=0,location=0,status=0,scrollbars=0,resizable=1,left=0,top=0');return false;"><i class="fa fa-facebook"></i>   Share on Facebook</a>
+        <a id="pinterestbutton" class="socialshare" target="_blank" href="https://pinterest.com/pin/create/button/?url=&media={{image absolute="true"}}&description={{url absolute="true"}}" onclick="javascript:void window.open('https://pinterest.com/pin/create/button/?url=&media={{image absolute="true"}}&description={{url absolute="true"}}','1463318955356','width=700,height=500,toolbar=0,menubar=0,location=0,status=0,scrollbars=0,resizable=1,left=0,top=0');return false;"><i class="fa fa-pinterest"></i>   Share on Pinterest</a>
+    </div>
+    <p id="footer-tags"><b>Tags:</b> {{tags separator=" / "}}</p>
+</div>
+
+<div id="pagination">
+    {{#prev_post}}
+            <a href="{{url}}">&larr; previous post</a>
+          {{/prev_post}}
+      {{#next_post}}
+        <a href="{{url}}">next post &rarr;</a>
+      {{/next_post}}
+</div>
+{{/post}}
+
+{{> footer}}
