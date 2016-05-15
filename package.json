@@ -1,0 +1,9 @@
+{
+  "name": "Aspen",
+  "version": "1.0",
+  "main": "index.hbs",
+  "author": {
+    "name": "Wouter van Dijke",
+    "url": "http://www.woutervandijke.uk"
+  }
+ }
