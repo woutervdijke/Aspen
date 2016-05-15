@@ -1,6 +1,6 @@
 # Aspen Ghost Theme 1.0
 
-Simple, sleek open-source theme for the Ghost Blogging Platform. Vertical lay-out with a masonry-based post overview. 
+Simple, sleek, responsive open-source theme for the Ghost Blogging Platform. Vertical lay-out with a masonry-based post overview.
 
 The design is based on the [Willow theme by Raivis Vitols](https://github.com/raivis-vitols/ghost-theme-willow).
 
