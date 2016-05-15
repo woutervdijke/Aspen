@@ -5,7 +5,7 @@ Simple, sleek open-source theme for the Ghost Blogging Platform. Vertical lay-ou
 The design is based on the [Willow theme by Raivis Vitols](https://github.com/raivis-vitols/ghost-theme-willow).
 
 ## Preview:
-![Aspen Theme](https://imgur.com/ibvBGj5)
+![Aspen Theme](http://i.imgur.com/ibvBGj5.png)
 
 ## Live demo
 I'm currently running this theme on my [personal website](http://www.foundth.is).
