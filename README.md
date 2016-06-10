@@ -7,8 +7,6 @@ The design is based on the [Willow theme by Raivis Vitols](https://github.com/ra
 ## Preview:
 ![Aspen Theme](http://i.imgur.com/ibvBGj5.png)
 
-## Live demo
-I'm currently running this theme on my [personal website](http://www.foundth.is).
 ## To edit social media links:
 
 Change the links in the `content/themes/aspen/partials/sociallinks.hbs` file.
